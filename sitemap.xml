@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://kgmm.coding.me/count/index.html</loc>
+    <loc>http://kgmm.coding.me/catagories/index.html</loc>
     
-    <lastmod>2018-10-27T11:15:04.046Z</lastmod>
+    <lastmod>2018-10-27T13:14:47.800Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kgmm.coding.me/tags/index.html</loc>
+    
+    <lastmod>2018-10-27T13:12:26.907Z</lastmod>
     
   </url>
   
