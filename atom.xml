@@ -5,9 +5,9 @@
   <subtitle>myblog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://kgmm.coding.me/"/>
   <updated>2018-10-26T02:26:00.128Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://kgmm.coding.me/</id>
   
   <author>
     <name>Ge Mengmeng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>myblog by hexo and githubpage</title>
-    <link href="http://yoursite.com/2018/10/26/myblog-by-hexo-and-githubpage/"/>
-    <id>http://yoursite.com/2018/10/26/myblog-by-hexo-and-githubpage/</id>
+    <link href="http://kgmm.coding.me/2018/10/26/myblog-by-hexo-and-githubpage/"/>
+    <id>http://kgmm.coding.me/2018/10/26/myblog-by-hexo-and-githubpage/</id>
     <published>2018-10-26T02:26:00.000Z</published>
     <updated>2018-10-26T02:26:00.128Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/25/hello-world/"/>
-    <id>http://yoursite.com/2018/10/25/hello-world/</id>
+    <link href="http://kgmm.coding.me/2018/10/25/hello-world/"/>
+    <id>http://kgmm.coding.me/2018/10/25/hello-world/</id>
     <published>2018-10-25T14:45:47.113Z</published>
     <updated>2017-10-28T00:39:58.000Z</updated>
     
@@ -53,8 +53,8 @@
   
   <entry>
     <title>myblog</title>
-    <link href="http://yoursite.com/2018/10/25/blog/"/>
-    <id>http://yoursite.com/2018/10/25/blog/</id>
+    <link href="http://kgmm.coding.me/2018/10/25/blog/"/>
+    <id>http://kgmm.coding.me/2018/10/25/blog/</id>
     <published>2018-10-25T14:36:09.717Z</published>
     <updated>2018-08-07T14:36:01.912Z</updated>
     
