@@ -1,0 +1,3 @@
+http://kgmm.coding.me/2018/10/26/myblog-by-hexo-and-githubpage/
+http://kgmm.coding.me/2018/10/25/hello-world/
+http://kgmm.coding.me/2018/10/25/blog/
