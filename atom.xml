@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>gmmblog</title>
   
-  <subtitle>myblog</subtitle>
+  <subtitle>Go away from comfort zone</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kgmm.coding.me/"/>
-  <updated>2018-10-27T09:48:16.206Z</updated>
+  <updated>2018-10-28T06:33:46.590Z</updated>
   <id>http://kgmm.coding.me/</id>
   
   <author>
@@ -18,29 +18,23 @@
   
   <entry>
     <title>my first blog</title>
-    <link href="http://kgmm.coding.me/2018/10/25/blog/"/>
-    <id>http://kgmm.coding.me/2018/10/25/blog/</id>
+    <link href="http://kgmm.coding.me/blog/"/>
+    <id>http://kgmm.coding.me/blog/</id>
     <published>2018-10-25T14:36:09.717Z</published>
-    <updated>2018-10-27T09:48:16.206Z</updated>
+    <updated>2018-10-28T06:33:46.590Z</updated>
     
-    <content type="html"><![CDATA[<p>#我的个人博客</p><blockquote><p>做最好的自己–by gemengmeng</p></blockquote><p>##基本内容</p><ul><li>算法</li><li>it基本</li><li>机器学习</li></ul><p>##具体专题</p><ol><li>acm算法</li><li>机器学习算法</li><li>人工智能算法</li><li>python</li><li>java</li><li>linux</li><li>硬件知识</li></ol><p><img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2427451804,1734051081&amp;fm=11&amp;gp=0.jpg" alt="焰灵姬"></p><p><a href="https://www.baidu.com" target="_blank" rel="noopener">baidu</a></p><p><strong>活出精彩的人生</strong></p><p><em>过自己想要的生活</em></p><p align="left"><br><font face="微软雅黑" color="red" size="5">美好的生活在前方</font><br></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="我的个人博客"><a href="#我的个人博客" class="headerlink" title="我的个人博客"></a>我的个人博客</h1><blockquote><p>做最好的自己–by gemengmeng</p></blockquote><h2 id="基本内容"><a href="#基本内容" class="headerlink" title="基本内容"></a>基本内容</h2><ul><li>算法</li><li>it基本</li><li>机器学习</li></ul><a id="more"></a><h2 id="具体专题"><a href="#具体专题" class="headerlink" title="具体专题"></a>具体专题</h2><ol><li>acm算法</li><li>机器学习算法</li><li>人工智能算法</li><li>python</li><li>java</li><li>linux</li><li>硬件知识</li></ol><p><img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2427451804,1734051081&amp;fm=11&amp;gp=0.jpg" alt="焰灵姬"></p><p><a href="https://www.baidu.com" target="_blank" rel="noopener">baidu</a></p><p><strong>活出精彩的人生</strong></p><p><em>过自己想要的生活</em></p><p align="left"><br><font face="微软雅黑" color="red" size="5">美好的生活在前方</font><br></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;#我的个人博客&lt;/p&gt;
-&lt;blockquote&gt;
+      &lt;h1 id=&quot;我的个人博客&quot;&gt;&lt;a href=&quot;#我的个人博客&quot; class=&quot;headerlink&quot; title=&quot;我的个人博客&quot;&gt;&lt;/a&gt;我的个人博客&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;做最好的自己–by gemengmeng&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;##基本内容&lt;/p&gt;
-&lt;ul&gt;
+&lt;h2 id=&quot;基本内容&quot;&gt;&lt;a href=&quot;#基本内容&quot; class=&quot;headerlink&quot; title=&quot;基本内容&quot;&gt;&lt;/a&gt;基本内容&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;算法&lt;/li&gt;
 &lt;li&gt;it基本&lt;/li&gt;
 &lt;li&gt;机器学习&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;##
-      
     
     </summary>
     
