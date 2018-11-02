@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kgmm.coding.me/"/>
-  <updated>2018-10-28T06:33:46.590Z</updated>
+  <updated>2018-11-02T16:18:52.028Z</updated>
   <id>http://kgmm.coding.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用hexo+next+githubpage搭建个人博客</title>
+    <link href="http://kgmm.coding.me/firstblog/"/>
+    <id>http://kgmm.coding.me/firstblog/</id>
+    <published>2018-11-02T16:12:28.282Z</published>
+    <updated>2018-11-02T16:18:52.028Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用hexo-next-githubpage搭建个人博客"><a href="#使用hexo-next-githubpage搭建个人博客" class="headerlink" title="使用hexo+next+githubpage搭建个人博客"></a>使用hexo+next+githubpage搭建个人博客</h1><p><em>采坑大战</em></p><blockquote><p>爱折腾好习惯,博客养成良好习惯</p></blockquote><hr><blockquote><p>说明：<br>本博文仅在于介绍，详细的教程会又文末链接，复制粘贴别人的没有意义，更重要的是经验以及如何克服困难躲坑</p><ul><li>大致思路</li><li>选择原因</li><li><strong>爬坑必备</strong></li></ul></blockquote><hr><h2 id="爬坑必备"><a href="#爬坑必备" class="headerlink" title="爬坑必备"></a>爬坑必备</h2><h3 id="hexo坑"><a href="#hexo坑" class="headerlink" title="hexo坑"></a>hexo坑</h3><ul><li>使用git命令行工具可以极大地提高后续操作的便捷度</li><li>版本<code>hexo-cli: 1.1.0</code> <code>node: 8.11.3</code> 这是当前版本</li><li>版本很重要</li><li>新版：安装便捷，更少bug</li><li>旧版：教程更多，更稳定</li><li>目前hexo版本问题不大，所以不需要太重视</li><li>按照教程问题不大</li></ul><hr><h3 id="next史前巨坑"><a href="#next史前巨坑" class="headerlink" title="next史前巨坑"></a>next史前巨坑</h3><ul><li><p>推荐选择next主题</p><blockquote><p>在没有基础的情况下，next丰富的教程以及全面的功能实在没有拒绝的理由</p></blockquote><ul><li><p>使用<strong>5</strong>版本，不要使用<strong>6</strong>版本</p><blockquote><p>  版本版本版本，坑爹的事情说三遍    </p></blockquote><p><code>5.14: git clone git@github.com:iissnan/hexo-theme-next.git</code><br><code>6.0: git clone git@github.com:theme-next/hexo-theme-next.git</code></p></li><li>如果有强迫症参考<a href="https://whjkm.github.io/2018/07/17/Hexo版本升级和Next主题升级之坑/" target="_blank" rel="noopener">版本升级坑教程</a>,<a href="https://tianbozhang.coding.me/next-theme-update.html" target="_blank" rel="noopener">next升级教程2</a>，</li><li>由于网上<strong>大多教程</strong>以及当前的<strong>官方文档</strong>都是基于next5版本的，所以6版本需要爬坑无数—-<em>比如我</em></li><li>不要反复切换教程，看到一个就顺着做下去</li><li>next官方文档可以看一看，讲的挺全但是不详细</li><li><strong>next教程推荐</strong>：<blockquote><p><a href="https://alvabill.ml/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-NexT%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/" target="_blank" rel="noopener">教程1</a><br><em>这个教程讲的十分全面</em><br><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">教程2</a><br><em>这个同上</em><br><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">教程3</a><br><a href="https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html" target="_blank" rel="noopener">教程4</a></p></blockquote></li></ul></li></ul><hr><h3 id="github-page巨坑："><a href="#github-page巨坑：" class="headerlink" title="github page巨坑："></a>github page巨坑：</h3><blockquote><p>网搜多时发现无数受害者因他走上退路，起始，我也差点卷铺盖走人</p></blockquote><ul><li>github仓库名字设置<blockquote><p><code>githubusername.io</code> 正确<br><code>othername</code>准备卷铺盖走人吧</p></blockquote></li><li>githubpage本身也是一个github仓库<blockquote><p>和普通的代码仓库没有什么区别，所以命令都是通用的，只是以仓库名字的特别性以及仓库种类的特别，提供了静态页面托管功能，按照指定的路径可以访问</p></blockquote></li><li>配置是在github page一栏 <strong>不要</strong> 选择主题，还有不要选择<strong>disable选项</strong>，除非你不想访问并展示博客页面</li><li>只是静态网页，不过通过画板娘等配置可以使页面变得很高逼格</li><li>git操作在最开始需要，到第一次配置完成后，只需要使用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>实现代码更新部署上传一条龙操作</li></ul><h2 id="学习指南"><a href="#学习指南" class="headerlink" title="学习指南"></a>学习指南</h2><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li>git<ul><li>nodejs</li><li>npm</li><li>hexo</li><li>markdown</li></ul></li></ul><blockquote><p><em>推荐首先安装git，使用命令行进行操作</em></p></blockquote><hr><h3 id="选择原因"><a href="#选择原因" class="headerlink" title="选择原因"></a>选择原因</h3><ul><li>使用githubpage是为了更长远的发展，可以同时发布在coding上解决百度检索国内访问速度的问题，当然不能翻墙的小伙伴推荐coding</li><li>使用hexo轻松搭建美观的个人博客，不需要繁琐的前端代码编辑，只需要一次性折腾的配置+专注写作</li><li>github官方推荐的Jekyll以及我所使用的hexo都是很棒的工具</li><li>next目前最火的hexo主题，简约而功能强大，主题可是个坑，这里在下面会详细说明</li><li>hexo有着丰富的插件，丰富的主题，活跃的社区，丰富的教程，基于nodejs npm等</li></ul><hr><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><ul><li>hexo官网教程<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">hexo_doc</a></li><li>github page：基于github的代码托管平台，划重点<strong>免费</strong>，重点：<strong>github Pages可以被认为是用户编写的、托管在github上的静态网页</strong>，详情<a href="https://pages.github.com/" target="_blank" rel="noopener">githubpage</a></li><li>next主题请参考<a href="https://theme-next.iissnan.com/" target="_blank" rel="noopener">next</a></li><li><p>markdown：<code>please google/baidu</code></p><h3 id="搭建个人网站思路-流程"><a href="#搭建个人网站思路-流程" class="headerlink" title="搭建个人网站思路/流程"></a>搭建个人网站思路/流程</h3></li><li><p><strong>思路流程</strong>：</p><ul><li>先在配置好hexo</li><li>本地编写博文</li><li>借助hexo的生成网页功能生成html代码</li><li>借助hexo上传功能上传到github page</li><li>从而生成静态网页</li><li>next则是为博客选择的主题<ul><li><strong>你所要做的</strong>：配置，写博文，输入<code>hexo s &amp;&amp; hexo g &amp;&amp; hexo d</code></li><li><strong>hexo为你做的</strong>：生成html代码，并且通过插件发布到github上</li><li><strong>next为你做的</strong>：通过配置控制生成的html代码，从而控制网页的格式，美化完善个人博客</li><li><strong>githubpage为你做的</strong>：代码托管平台，提供了一个代码呈现以及存储的平台，通过配置域名可以实现更好的推广，当然github.io逼格也蛮高的</li></ul></li></ul></li></ul><hr><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>这是第一篇正式的博文，但是有明确的目的：</li></ul><blockquote><p>简要介绍hexo next githubpage<br>帮助大家爬坑，很多时候爬坑的时间远远超过了操作的时间</p><ul><li>最后一点<br>配置文件该乱了，果断删除重来，在没有基础的情况下重启(reboot/restart)是最搞笑快捷的</li></ul></blockquote><hr><h2 id="教程合集"><a href="#教程合集" class="headerlink" title="教程合集"></a>教程合集</h2><ul><li>markdown教程<ul><li><a href="http://itmyhome.com/markdown/article/about/readme.html" target="_blank" rel="noopener">教程1</a></li><li><a href="https://blog.huihut.com/2017/01/25/MarkdownTutorial/#editor" target="_blank" rel="noopener">教程2</a> </li></ul></li><li>next教程<blockquote><p>参考上文</p><ul><li>hexo githubpage next 搭建个人博客<ul><li><a href="https://alvabill.ml/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2--%E5%9F%BA%E7%A1%80%E7%AF%87/" target="_blank" rel="noopener">教程</a></li><li>网上类似教程很多</li></ul></li></ul></blockquote></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;使用hexo-next-githubpage搭建个人博客&quot;&gt;&lt;a href=&quot;#使用hexo-next-githubpage搭建个人博客&quot; class=&quot;headerlink&quot; title=&quot;使用hexo+next+githubpage搭建个人博客&quot;&gt;&lt;/a&gt;使用
+      
+    
+    </summary>
+    
+      <category term="technology" scheme="http://kgmm.coding.me/categories/technology/"/>
+    
+    
+      <category term="it技术" scheme="http://kgmm.coding.me/tags/it%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>my first blog</title>
